@@ -51,7 +51,7 @@ function MainPage() {
 
   return (
     <div className="bg-[#ECEFF3] dark:bg-black text-white pt-16 flex w-full  h-screen">
-      <div className="w-1/4 ">
+      <div className="md:w-1/4 w-full ">
         <AllInbox data={datas} loadMail={loadMail} />
       </div>
       <div className="w-2/4 hidden md:block">
