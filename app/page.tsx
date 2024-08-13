@@ -7,7 +7,7 @@ export default function Component() {
   const [sigin, setSignin] = useState(true);
   const handleLogin = async () => {
     window.location.href =
-      "https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=http://localhost:3000/oneBox";
+      "https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=https://reachinbox-ui.smdev.me/oneBox";
   };
 
   return (
