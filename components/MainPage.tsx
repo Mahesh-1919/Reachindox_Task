@@ -54,11 +54,11 @@ function MainPage() {
       <div className="w-1/4 ">
         <AllInbox data={datas} loadMail={loadMail} />
       </div>
-      <div className="w-2/4">
+      <div className="w-2/4 hidden md:block">
         {/* @ts-ignore */}
         <CenterPage selectedThread={selectedThread} />
       </div>
-      <div className="w-1/4">
+      <div className="w-1/4 hidden md:block">
         <RightSection />
       </div>
     </div>
